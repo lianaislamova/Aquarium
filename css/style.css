@@ -1,0 +1,215 @@
+@font-face {
+	font-family: 'Asap';
+	src: url(../fonts/Asap/Asap-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Asap';
+	src: url(../fonts/Asap/Asap-Italic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Asap';
+	src: url(../fonts/Asap/Asap-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Asap';
+	src: url(../fonts/Asap/Asap-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Droid_Sans';
+	src: url(../fonts/Droid_Sans/DroidSans.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Droid_Sans';
+	src: url(../fonts/Droid_Sans/DroidSans-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Oleo_Script';
+	src: url(../fonts/Oleo_Script/OleoScript-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Oleo_Script';
+	src: url(../fonts/Oleo_Script/OleoScript-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #12263d;
+	color: #fff;
+	font-family: 'Asap'
+}
+
+div.header {
+	background: url(../img/header-background.png) no-repeat;
+}
+
+div.short {
+	margin: 50px auto;
+	background: url(../img/wrapper1-background.png) no-repeat;
+	width: 1300px;
+	background-size: 1300px;
+}
+.icon {
+	float: right;
+	padding-right: 100px;
+}
+.top-menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.menu-main {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+
+}
+.menu-main a {
+	margin: 0 0 0 10px;
+	text-decoration: none;
+	color: #fff;
+	float: right;
+	font-size: 18px;
+}
+span h1 {
+	margin: 0;
+}
+.images {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+.images img {
+	width: 20%;
+}
+.greeting {
+	margin: 10px auto;
+	font-size: 25px;
+	width: 600px;
+	text-align: center;
+	font-family: 'Oleo_Script';
+	line-height: 35px;
+}
+.greeting p {
+	margin-top: 0;
+	font-family: 'Droid_Sans';
+	font-size: 18px;
+	}
+.greeting h2 { 
+	padding-bottom: 0;
+}
+
+
+div.item {
+	display: flex;
+	flex-direction: row;
+}
+.mr {
+	width: 400px;
+}
+.mr h3 {
+	font-size: 25px;
+	margin-bottom: 0;
+	font-family: 'Oleo_Script';
+	font-weight: normal;
+	font-style: normal; 
+}
+.up {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.more {
+	display: flex;
+	flex-direction: row;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Oleo_Script';
+	font-weight: normal;
+	font-style: normal; 
+	align-items: baseline;
+	width: 20px;
+	color: white;
+}
+
+.tl {
+	display: flex;
+	flex-direction: row;
+}
+.news {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 1200px;
+
+}
+.ph {
+	flex: 1 1 200px;
+	margin: 40px;
+	width: 200px;
+	display: flex;
+	flex-flow: column;
+}
+
+.pr {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+	justify-content: space-between;
+}
+.pr img {
+	margin-right: 10px;
+}
+button {
+	background-color: #00a3f5;
+	border: none;
+	margin-right: 5px;
+	color: white;
+	display: inline;
+}
+.ph h3 {
+	font-family: 'Oleo_Script';
+	font-weight: normal;
+	font-style: normal; 
+	font-size: 25px;
+}
+.data {
+	color: #00a3f5;
+}
+footer {
+	background: url(../img/header-background.png);
+	}
+footer div {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-around;
+}
+footer ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+
+}
+
+footer li {
+	margin: 10px;
+	
+}
